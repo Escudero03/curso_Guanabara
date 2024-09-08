@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>videos com <html>
+
+        </html>
+    </title>
+</head>
+
+<body>
+    <h1>inserindo videos hospedados localmente</h1>
+    <p>este video esta hospedado no meu proprio servidor</p>
+
+    <!-- maneira simples de colocar video  -->
+    <video src="video/Mar.mp4" width="500" controls></video>
+
+    <h1> colocando varios ormato de video se caso nao abrir
+        um abre o outro oque for compativel </h1>
+
+    <video width="500" poster=" imagem/mar.jpg " controls>
+        <source src="video/Mar.mp4" type="video/mp4">
+        <source src="video/Mar_webn.webm" type="video/mp4">
+
+         </video>
+
+    <video width="500" height="auto" poster="imagem/mar.jpg" controls style="max-width: 100%; height: 250px;">
+        <source src="video/Mar.mp4" type="video/mp4">
+        <source src="video/Mar_webn.webm" type="video/webm">
+        Seu navegador não suporta o elemento de vídeo.
+    </video>
+
+
+    <H1>inserindo videos do youtube</H1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/kGrj_y8SpSw?si=90IocQ0Rol2CvQaR" 
+    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+    clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <h1>inserindo videos do vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/994838812?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+     width="560" height="315" 
+    frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="
+    &quot;Happy Birthday MikeMike&quot;"></iframe>
+    
+</body>
+
+</html>
